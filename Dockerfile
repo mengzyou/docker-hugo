@@ -14,12 +14,11 @@ RUN set -x \
     && tar zxf hugo_extended_${VERSION}_${ARCH}.tar.gz \
     && mv ./hugo /usr/local/bin/hugo-ext \
     && rm -rf * \
-    && adduser -h /app -D -u 1000 app
+    && mkdir -p /app
 
-USER app
 
 WORKDIR /app
 
 EXPOSE 1313
 
-CMD ["hugo","server"]
+CMD ["hugo"]
