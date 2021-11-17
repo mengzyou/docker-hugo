@@ -1,7 +1,7 @@
 # Base image
-FROM alpine:3.10
+FROM alpine:3.14
 
-ENV VERSION=0.55.6 \
+ENV VERSION=0.89.3 \
     ARCH=Linux-64bit
 
 RUN set -x \
