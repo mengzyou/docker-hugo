@@ -4,7 +4,8 @@ This repo is ued to build [hugo](https://github.com/gohugoio/hugo) container ima
 
 ## Version
 
-- [0.160.0, 0.16, latest](https://github.com/gohugoio/hugo/releases/tag/v0.106.0)  
+- [0.111.3, 0.111, latest](https://github.com/gohugoio/hugo/releases/tag/v0.111.3)
+- [0.160.0, 0.16](https://github.com/gohugoio/hugo/releases/tag/v0.106.0)  
 
 ## Usage
 

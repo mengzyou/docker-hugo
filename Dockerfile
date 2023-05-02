@@ -1,7 +1,7 @@
 # Base image
 FROM alpine:3.16
 
-ENV VERSION=0.106.0 \
+ENV VERSION=0.111.3 \
     ARCH=linux-amd64
 
 RUN apk add --no-cache tini \
